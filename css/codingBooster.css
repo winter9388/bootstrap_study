@@ -1,0 +1,29 @@
+/*-- 전체 영역 스타일 정의 --*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+* {
+	font-family: 'Nanum Gothic';
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #bbbbbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.bg-gray {
+	background-color: gray;
+}
+
+.dropdown-menu .dropdown-item {
+	color: #ffffff;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+	color: #000000;
+}
